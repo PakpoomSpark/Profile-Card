@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>My Profile</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Profile</h1>
+      <div class="toggle">
+        <input type="checkbox" id="darkModeToggle" />
+        <label for="darkModeToggle"></label>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="profile-image-wrapper">
+        <img
+          id="myImg"
+          class="profile-image"
+          src="profile.jpg"
+          alt="Profile Image"
+        />
+      </div>
+      <div class="profile-info">
+        <h2 class="animate__animated animate__fadeIn">Pakpoom Chokhirunkran</h2>
+        <p class="animate__animated animate__fadeIn">
+          Email: Pakpoom.chok@ku.th
+        </p>
+        <p class="animate__animated animate__fadeIn">
+          Location: Bangsue, Bangkok
+        </p>
+        <p class="animate__animated animate__fadeIn">
+          Education: Kasetsart University Major: Computer Science
+        </p>
+        <a href="https://line.me/ti/p/~sp1885" class="Line-Button">Line</a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100018993939920"
+          class="Facebook-Button"
+          >Facebook</a
+        >
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
